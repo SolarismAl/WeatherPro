@@ -1,0 +1,28 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sunGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FCD34D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cloudGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E5E7EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9CA3AF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sun -->
+  <circle cx="12" cy="10" r="4" fill="url(#sunGradient)" />
+  <g stroke="url(#sunGradient)" stroke-width="1.5" stroke-linecap="round">
+    <line x1="12" y1="2" x2="12" y2="4" />
+    <line x1="12" y1="16" x2="12" y2="18" />
+    <line x1="4" y1="10" x2="6" y2="10" />
+    <line x1="18" y1="10" x2="20" y2="10" />
+    <line x1="6.34" y1="4.34" x2="7.76" y2="5.76" />
+    <line x1="16.24" y1="14.24" x2="17.66" y2="15.66" />
+    <line x1="6.34" y1="15.66" x2="7.76" y2="14.24" />
+    <line x1="16.24" y1="5.76" x2="17.66" y2="4.34" />
+  </g>
+  
+  <!-- Cloud -->
+  <path d="M8 18c-2.21 0-4 1.79-4 4s1.79 4 4 4h16c2.21 0 4-1.79 4-4s-1.79-4-4-4c0-2.21-1.79-4-4-4-1.11 0-2.11.45-2.83 1.17C16.45 14.45 15.45 14 14.5 14c-1.93 0-3.5 1.57-3.5 3.5 0 .17.01.33.03.5H8z" fill="url(#cloudGradient)" opacity="0.9" />
+</svg>

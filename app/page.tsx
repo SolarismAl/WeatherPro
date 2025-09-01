@@ -314,7 +314,7 @@ export default function WeatherApp() {
         </div>
 
         {weatherData && (
-          <div className="grid grid-cols-1 xl:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 xl:grid-cols-4 gap-8 z-20">
             {/* Main Weather Display */}
             <div className="xl:col-span-3 bg-white/5 backdrop-blur-xl rounded-3xl border border-white/10 p-8 shadow-2xl transition-all duration-500 hover:bg-white/10">
               {/* Location Header */}
