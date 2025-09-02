@@ -20,7 +20,6 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/weather-icon.svg", sizes: "32x32", type: "image/svg+xml" },
-      { url: "/favicon.ico", sizes: "any", type: "image/x-icon" }
     ]
   },
   manifest: "/manifest.json",

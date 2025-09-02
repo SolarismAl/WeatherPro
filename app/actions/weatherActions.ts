@@ -1,3 +1,5 @@
+'use server';
+
 // Use the API key directly for now - in production, use environment variables
 const API_KEY = '3e0527c3c27a23f93bb896188458c8a6';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
